@@ -19,3 +19,7 @@ git push --set-upstream origin master
 	Este es el comando para el primer push que recomienda W3 más específico con las flags
 	--set-upstream
 	
+git branch -a 
+	Después de crear una rama en Github este comando muestra la branch remota
+	con un checkout accedemos a ella en el repositorio local
+	Por cierto estos combios los estoy haciendo en dicha rama...
