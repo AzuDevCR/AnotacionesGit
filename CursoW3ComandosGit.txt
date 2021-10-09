@@ -10,3 +10,12 @@ git status --short muestra el estatus en una manera más compacta
 Para hacer un commit "rápido" se usan las flags -a -m para hacer un staging automático
 	Esto es una práctica no recomendada y solo se debe usar para cambios emergentes muy pequeños
 	
+Se hace mucho incapie en el uso del git add --all o git add -A
+
+git checkout -b emergency-fix
+	La flag -b en el checkout nos coloca automáticamente en la nueva rama
+	
+git push --set-upstream origin master
+	Este es el comando para el primer push que recomienda W3 más específico con las flags
+	--set-upstream
+	
