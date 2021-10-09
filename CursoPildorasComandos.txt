@@ -1,0 +1,23 @@
+git config --global user.email “mi correo”
+git config --global user.name “mi nombre”
+Se omite el --global si se quiere dejar la identidad solo en el repositorio en el que se está
+
+git init
+git add
+git commit
+git status -s
+git commit -m “Descripción”
+git log --oneline
+git reset --hard “código de instantánea”
+git add . (agrega TODO al staging area)
+git commit -am "Descripción” 
+git commit --amend (Abre editor vim pero yo puse Notepad++)
+git push origin master
+git tag xxxxxxx xxx -m "Descripción”
+git push --tags
+git pull https://****************
+git branch NombreDeRama
+git checkout CambioDeRama
+git branch -d borra rama 
+git merge se debe hacer desde la rama master
+git push origin master

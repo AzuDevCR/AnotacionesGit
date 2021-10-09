@@ -1,0 +1,12 @@
+git add --all (-A) Esto agregará todos los cambios al Stage Area(Nuevos, modificados, eliminados)
+	Importante... W3 menciona que se debería Stagear trabajo completado(o muy avanzado)
+	
+Me gusta la manera en la que W3 se refiere al commit; un savepoint!!
+Por el momento me parece irrelevante poner el comando commit pues ya está mencionado y
+dominado desde el estudio de Píldoras Informáticas
+
+git status --short muestra el estatus en una manera más compacta
+
+Para hacer un commit "rápido" se usan las flags -a -m para hacer un staging automático
+	Esto es una práctica no recomendada y solo se debe usar para cambios emergentes muy pequeños
+	
