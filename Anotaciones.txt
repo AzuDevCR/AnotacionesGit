@@ -1,0 +1,43 @@
+git config -h
+git --version
+**********************Configuración
+git config --global user.name "namehere"
+git config --global user.email ...
+git config --global core.editor "code --wait" para VSCode
+git config --global -e para ver la configuración
+git config --global core.autocrlf true (input para Linux/Mac)
+**********************Comandos
+ls - Listado de toda la vida...
+pwd - print working directory ...... Esto está muy parecido a Linux!!
+cd - .... si, también hay cd aquí
+mkdir
+-
+git init
+ls -a muestra archivos ocultos
+code .
+git status
+git add (., .extension, nombre de archivo) El punto no se debaría usar
+git commit -m "Mensaje con sentido"
+rm nombreDeArchivoAEliminar
+git rm nombreDeArchivoAEliminar hace el stage de la eliminación automáticamente 
+git restore --staged archivo lo saca del STAGE
+git restore archivo Recupera el archivo propiamente dicho
+mv origen destino(nombreOriginal - nuevoNombre)
+git mv origen destino(nombreOriginal - nuevoNombre) [De nuevo anteponiendo git a mv hace el stagging automáticamente]
+git status -s Otro manera de consultar el estado del repositorio
+git diff Una manera mas minuciosa de ver los cambios realizados. Se sale de la vista presionando la letra Q
+git diff --staged
+git log
+git log --oneline
+git branch consulta rama actual
+git checkout -b nombre de la nueva rama
+git checkout nombre de rama [checkout sin opciones es para moverse entre ramas]
+cat archivoX muestra el contenido del archivo en la terminal
+git merge nombre de rama [Es importante estar(con checkout) en la rama principal ya sea main o master(revisar con git branch)]
+git remote add origin [dirección del repositorio remoto]
+git push -u origin main [Crea la rama main en origin para realizar el push...(espero haberlo entendido bien...)]
+git push [seguira subiendo el código a main/master]
+
+Para crear una branch en github
+	-Creamos(o nos movemos a) una rama con git checkout -b ramaNueva
+	-git push -u origin ramaNueva
